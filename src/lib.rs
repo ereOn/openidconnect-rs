@@ -1693,7 +1693,7 @@ mod tests {
         );
 
         let (authorize_url, _, _) = client
-            .authorize_url(flow.clone(), new_csrf, new_nonce)
+            .authorize_url(flow, new_csrf, new_nonce)
             .add_scopes(vec![
                 Scope::new("email".to_string()),
                 Scope::new("profile".to_string()),

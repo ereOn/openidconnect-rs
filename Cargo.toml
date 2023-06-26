@@ -1,10 +1,10 @@
 [package]
-name = "openidconnect"
+name = "openidconnect-lax"
 version = "3.2.1"
-authors = ["David A. Ramos <ramos@cs.stanford.edu>"]
+authors = ["David A. Ramos <ramos@cs.stanford.edu>", "Julien Kauffmann <julien.kauffmann@freelan.org>"]
 description = "OpenID Connect library"
 license = "MIT"
-repository = "https://github.com/ramosbugs/openidconnect-rs"
+repository = "https://github.com/ereOn/openidconnect-rs"
 edition = "2021"
 readme = "README.md"
 

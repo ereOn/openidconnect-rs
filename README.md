@@ -1,14 +1,21 @@
 # [OpenID Connect](https://openid.net/specs/openid-connect-core-1_0.html) Library for Rust
 
-[![crates.io](https://img.shields.io/crates/v/openidconnect.svg)](https://crates.io/crates/openidconnect)
-[![docs.rs](https://docs.rs/openidconnect/badge.svg)](https://docs.rs/openidconnect)
-[![Build Status](https://github.com/ramosbugs/openidconnect-rs/actions/workflows/main.yml/badge.svg)](https://github.com/ramosbugs/openidconnect-rs/actions/workflows/main.yml)
-[![codecov](https://codecov.io/gh/ramosbugs/openidconnect-rs/branch/main/graph/badge.svg)](https://codecov.io/gh/ramosbugs/openidconnect-rs)
+This version is a soft-fork of
+[openidconnect-rs](https://github.com/ramosbugs/openidconnect-rs) from [David
+Ramos](https://github.com/ramosbugs). It relaxes the backward-compatibility
+constraints with older Rust versions to ensure that the latest crates can
+always be used for projects that depend on those. As much as possible, this
+crate will try to remain close and up-to-date with the original one.
+
+[![crates.io](https://img.shields.io/crates/v/openidconnect.svg)](https://crates.io/crates/openidconnect-lax)
+[![docs.rs](https://docs.rs/openidconnect/badge.svg)](https://docs.rs/openidconnect-lax)
+[![Build Status](https://github.com/ereOn/openidconnect-rs/actions/workflows/main.yml/badge.svg)](https://github.com/ereOn/openidconnect-rs/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/ereOn/openidconnect-rs/branch/main/graph/badge.svg)](https://codecov.io/gh/ereOn/openidconnect-rs)
 
 This library provides extensible, strongly-typed interfaces for the OpenID
 Connect protocol.
 
-API documentation and examples are available on [docs.rs](https://docs.rs/openidconnect).
+API documentation and examples are available on [docs.rs](https://docs.rs/openidconnect-lax).
 
 ## Minimum Supported Rust Version (MSRV)
 
